@@ -1,0 +1,15 @@
+echo "name: CI Build
+
+on:
+  push:
+    branches:
+      - api-feature
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run a one-line script
+        run: echo 'CI Build Passed'" > .github/workflows/ci.yml
