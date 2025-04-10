@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run a one-line script
-        run: echo 'CI Build Passed'" > .github/workflows/ci.yml
+        run: echo 'CI Build Passed'"
